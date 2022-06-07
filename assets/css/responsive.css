@@ -1,0 +1,257 @@
+:root {
+	--swiper-navigation-size: 24px;
+}
+@media (max-width: 1056px) {
+    .headline-of-title {
+        width: 482px;
+    }
+    .headline-of-title h1 {
+        font-size: 72px;
+    }
+    .headline-of-title p {
+        width: 100%;
+    }
+}
+@media (max-width: 930px) {
+    .headline-of-title {
+        width: 430px;
+    }
+    .title-image img {
+        width: 332px;
+        display: block;
+    }
+    .headline-of-title h1 {
+        font-size: 54px;
+    }
+    .headline-of-title p {
+        width: 100%;
+    }
+    .headline-of-title a {
+        margin-top: 2px;
+    }
+}
+@media (max-width: 804px) {
+    .headline-of-title {
+        width: 370px;
+    }
+    .title-image img {
+        width: 257px;
+        display: block;
+    }
+    .headline-of-title h1 {
+        font-size: 35px;
+    }
+    .headline-of-title p {
+        font-size: 14px;
+    }
+    .headline-of-title a {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 676px) {
+    /* ---------------------------------- */
+/*       Responsive with jquery       */
+/* ---------------------------------- */
+.dropdown-btn:hover .dropdown-items{
+    display: none;
+}
+.dropdown-btn:hover .dropdown-pg1{
+    color: #ba2e1f;
+}
+.menu-list li .dropdown-items{
+    position: unset;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	margin-top: 1px;
+	width: 26px;
+	height: 21px;
+	padding: 12px !important;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 700;
+	background: rgba(255,255,255,.1);
+	border: 0 !important;
+	border-left: 1px solid rgba(255,255,255,.4) !important;
+	border-bottom: 1px solid rgba(255,255,255,.2) !important;
+}
+.fa-angle-down{
+    visibility: hidden;
+}
+.mean-container .mean-bar {
+	width: 100%;
+	background: #0c1923;
+	padding: 4px 0;
+	min-height: 42px;
+}
+.top-header-area{
+    padding-top: 70px;
+}
+.social-section a {
+	margin-left: 11px;
+	width: 27px;
+	border-radius: 50%;
+	padding: 6px;
+    height: 28px;
+}
+.logo-section{
+    width: 200px;
+}
+.swiper-button-next, .swiper-button-prev {
+	padding: 21px;
+}
+.mySwiper{
+    width: 100%;
+}
+.main-header-area {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.title-image img {
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+.headline-of-title {
+	width: 100%;
+}
+.headline-of-title h1 {
+	font-size: 35px;
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+.headline-of-title p {
+	font-size: 14px;
+	margin: 0;
+	text-align: justify;
+}
+.asr-section {
+	flex-wrap: wrap;
+}
+.asr {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 29px;
+    margin-right: 0;
+}
+.about {
+	padding: 0;
+}
+.group .cpost h3 {
+	width: 100%;
+}
+.group .cpost p {
+	width: 100%;
+}
+.review .boxr p {
+	width: 100%;
+}
+.im- {
+	flex: 100%;
+    margin-bottom: 0;
+}
+.im- h3{
+    margin-bottom: 20px;
+}
+.im- h3::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #666;
+    left: 0;
+    bottom: -10px;
+}
+.im- h3::before{
+   display: none;
+}
+.quick-link ul {
+	width: 100%;
+}
+.footer-text p {
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+.im- h3 {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 678px) {
+
+    .mini-menu {
+        width: 100%;
+    }
+    .mini-menu ul {
+        display: flex;
+        justify-content: center;
+    }
+    .search-menu {
+        width: 90%;
+        display: block;
+        margin: 15px auto 0 auto;
+    }
+    .search-menu form {
+        max-width: 100%;
+    }
+
+
+.about-service-review, footer{
+    padding: 25px 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 534px) {
+    .main-header-area {
+        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-section{
+        margin-bottom: 15px;
+        max-width: 300px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons button {
+        /* margin-right: 15px; */
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        display: inline-flex
+    }
+
+
+
+
+
+
+
+
+
+}
